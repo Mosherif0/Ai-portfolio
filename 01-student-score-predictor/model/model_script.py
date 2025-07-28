@@ -61,7 +61,7 @@ with open('../output/metrics_report.txt', 'w') as f:
     f.write(f"Mean Squared Error (MSE): {mse:.2f}\n")
     f.write(f"R-squared Score (R2): {r2:.2f}\n")
 
-print("✅ Model trained and saved successfully.")
-print(f"📈 MSE: {mse:.2f}")
-print(f"📊 R2 Score: {r2:.2f}")
+print(" Model trained and saved successfully.")
+print(f" MSE: {mse:.2f}")
+print(f"R2 Score: {r2:.2f}")
 
